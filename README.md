@@ -11,7 +11,7 @@ This project focuses on predicting the 30-day readmission risk for diabetic pati
 - **Interpretability:** Integrated **SHAP** (Global Analysis) and **LIME** (Local Analysis) to explain model decisions, making the "Black Box" model understandable for healthcare professionals.
 
 ## **Key Results**
-- **Model Performance:** Achieved an **AUC Score of 0.68**.
+- **Model Performance:** Achieved an **AUC Score of 0.69**.
 - **Top Feature:** `number_inpatient` (previous hospital visits) was identified as the most significant predictor of readmission.
 - **XAI Insights:** SHAP summary plots reveal that age and medication count significantly influence the risk score across the population, while LIME provides patient-specific explanations for high-risk cases.
 
